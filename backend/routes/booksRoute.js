@@ -1,5 +1,6 @@
 import express from "express";
 import { Book } from "../models/bookModels.js";
+import cors from "cors";
 
 const router = express.Router();
 
