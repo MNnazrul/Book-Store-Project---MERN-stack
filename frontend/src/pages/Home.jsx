@@ -26,7 +26,6 @@ function Home() {
 
   return (
     <>
-      {/* <div>{books}</div> */}
       <div className="p-4">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl my-8">Books List</h1>
@@ -37,20 +36,20 @@ function Home() {
         {loading ? (
           <Spinner />
         ) : (
-          <table className="w-full">
+          <table className="w-full border-separate border-spacing-2">
             <thead>
               <tr>
-                <th className="border border-slate-600 rounded-md">No</th>
-                <th className="border border-slate-600 rounded-md">Title</th>
+                <th className=" border border-slate-800 rounded-md">No</th>
+                <th className="border border-slate-800 rounded-md">Title</th>
                 <th className="border border-slate-600 rounded-md max-md:hidden">
                   Author
                 </th>
                 <th className="border border-slate-600 rounded-md max-md:hidden">
                   Publish Year
                 </th>
-                <th className="border border-slice-600 rounded-md">
+                <th className="border border-slate-600 rounded-md">
                   Operations
-                </th>
+                </th>{" "}
               </tr>
             </thead>
             <tbody>
