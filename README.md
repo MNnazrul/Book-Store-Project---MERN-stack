@@ -1,1 +1,1 @@
-# Book-Store-Project---MERN-stack
+# Book-Store-Management
